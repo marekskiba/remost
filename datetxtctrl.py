@@ -8,7 +8,7 @@ from widgets.calendardialog import CalendarWindow
 
 WIDTH=115
 HEIGHT=25
-#pattern='^[0-9]{4}-(([1-9])|(0[1-9])|([12]))-(0[1-9]|[1-2][0-9]|3[0-1])$'
+
 empty_string=re.compile('^\s*$')
 pattern='^\s*[0-9]{4}-[0-1]{,1}[0-9]{1}-[0-3]{,1}[0-9]{1}\s*$'
 correct_data = re.compile(pattern)
